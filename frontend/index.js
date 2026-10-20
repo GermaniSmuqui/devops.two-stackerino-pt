@@ -2,9 +2,9 @@ const express = require("express")
 require("dotenv").config()
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3013
 // ONDE está o backend? Esta é a variável mais importante deste projeto!
-const backendUrl = process.env.BACKEND_URL || "http://localhost:5500"
+const backendUrl = process.env.BACKEND_URL || "http://localhost:5013"
 
 app.get("/", async (req, res) => {
   try {
